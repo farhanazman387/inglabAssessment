@@ -1,0 +1,6 @@
+module Pods_inglab_assessment {
+  umbrella header "Pods-inglab assessment-umbrella.h"
+
+  export *
+  module * { export * }
+}

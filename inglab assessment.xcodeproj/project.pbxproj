@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		144DEF3F4FBB75F7A553C1FA /* libPods-inglab assessment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A8137F2FE2B99C1055A6A3 /* libPods-inglab assessment.a */; };
+		A7F001DC4AE7122E637643FB /* libPods-inglab assessmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FC40DE5974DA06EB5D2D58 /* libPods-inglab assessmentTests.a */; };
+		BA63C4695F0562B307D93C50 /* libPods-inglab assessment-inglab assessmentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3C10F13C400C9F44FFC97 /* libPods-inglab assessment-inglab assessmentUITests.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6447CBC2D0C92CE003AF2C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200353E4265A59FEF7E84B03 /* Pods-inglab assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessment.debug.xcconfig"; path = "Target Support Files/Pods-inglab assessment/Pods-inglab assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7EDC307F86D5E637CC28D1 /* Pods-inglab assessment-inglab assessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessment-inglab assessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-inglab assessment-inglab assessmentUITests/Pods-inglab assessment-inglab assessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		540F87E4EDA8C600E100855E /* Pods-inglab assessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessmentTests.release.xcconfig"; path = "Target Support Files/Pods-inglab assessmentTests/Pods-inglab assessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		61FC40DE5974DA06EB5D2D58 /* libPods-inglab assessmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inglab assessmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		684BD018012A861EB1DAB828 /* Pods-inglab assessment-inglab assessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessment-inglab assessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-inglab assessment-inglab assessmentUITests/Pods-inglab assessment-inglab assessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9919355401D328860B22060E /* Pods-inglab assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessment.release.xcconfig"; path = "Target Support Files/Pods-inglab assessment/Pods-inglab assessment.release.xcconfig"; sourceTree = "<group>"; };
+		C2A8137F2FE2B99C1055A6A3 /* libPods-inglab assessment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inglab assessment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6447CAB2D0C92CB003AF2C7 /* inglab assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inglab assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6447CBB2D0C92CE003AF2C7 /* inglab assessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inglab assessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6447CC52D0C92CE003AF2C7 /* inglab assessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inglab assessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D3C10F13C400C9F44FFC97 /* libPods-inglab assessment-inglab assessmentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inglab assessment-inglab assessmentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F944807B1C43AF8F6924D1 /* Pods-inglab assessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inglab assessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-inglab assessmentTests/Pods-inglab assessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144DEF3F4FBB75F7A553C1FA /* libPods-inglab assessment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F001DC4AE7122E637643FB /* libPods-inglab assessmentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63C4695F0562B307D93C50 /* libPods-inglab assessment-inglab assessmentUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EDC8916517FCCCB6933054E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A8137F2FE2B99C1055A6A3 /* libPods-inglab assessment.a */,
+				F1D3C10F13C400C9F44FFC97 /* libPods-inglab assessment-inglab assessmentUITests.a */,
+				61FC40DE5974DA06EB5D2D58 /* libPods-inglab assessmentTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6447CA22D0C92CB003AF2C7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +107,8 @@
 				C6447CBE2D0C92CE003AF2C7 /* inglab assessmentTests */,
 				C6447CC82D0C92CE003AF2C7 /* inglab assessmentUITests */,
 				C6447CAC2D0C92CB003AF2C7 /* Products */,
+				E41AC5E5CBFB2C5E56DCD49D /* Pods */,
+				8EDC8916517FCCCB6933054E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +122,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E41AC5E5CBFB2C5E56DCD49D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				200353E4265A59FEF7E84B03 /* Pods-inglab assessment.debug.xcconfig */,
+				9919355401D328860B22060E /* Pods-inglab assessment.release.xcconfig */,
+				684BD018012A861EB1DAB828 /* Pods-inglab assessment-inglab assessmentUITests.debug.xcconfig */,
+				4A7EDC307F86D5E637CC28D1 /* Pods-inglab assessment-inglab assessmentUITests.release.xcconfig */,
+				F6F944807B1C43AF8F6924D1 /* Pods-inglab assessmentTests.debug.xcconfig */,
+				540F87E4EDA8C600E100855E /* Pods-inglab assessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6447CCF2D0C92CE003AF2C7 /* Build configuration list for PBXNativeTarget "inglab assessment" */;
 			buildPhases = (
+				A6A333A42A597AE2C5ED3528 /* [CP] Check Pods Manifest.lock */,
 				C6447CA72D0C92CB003AF2C7 /* Sources */,
 				C6447CA82D0C92CB003AF2C7 /* Frameworks */,
 				C6447CA92D0C92CB003AF2C7 /* Resources */,
@@ -111,8 +155,6 @@
 				C6447CAD2D0C92CB003AF2C7 /* inglab assessment */,
 			);
 			name = "inglab assessment";
-			packageProductDependencies = (
-			);
 			productName = "inglab assessment";
 			productReference = C6447CAB2D0C92CB003AF2C7 /* inglab assessment.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6447CD22D0C92CE003AF2C7 /* Build configuration list for PBXNativeTarget "inglab assessmentTests" */;
 			buildPhases = (
+				FF58C03248E844D43764816A /* [CP] Check Pods Manifest.lock */,
 				C6447CB72D0C92CE003AF2C7 /* Sources */,
 				C6447CB82D0C92CE003AF2C7 /* Frameworks */,
 				C6447CB92D0C92CE003AF2C7 /* Resources */,
@@ -134,8 +177,6 @@
 				C6447CBE2D0C92CE003AF2C7 /* inglab assessmentTests */,
 			);
 			name = "inglab assessmentTests";
-			packageProductDependencies = (
-			);
 			productName = "inglab assessmentTests";
 			productReference = C6447CBB2D0C92CE003AF2C7 /* inglab assessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6447CD52D0C92CE003AF2C7 /* Build configuration list for PBXNativeTarget "inglab assessmentUITests" */;
 			buildPhases = (
+				C280712DA95B306D3681282A /* [CP] Check Pods Manifest.lock */,
 				C6447CC12D0C92CE003AF2C7 /* Sources */,
 				C6447CC22D0C92CE003AF2C7 /* Frameworks */,
 				C6447CC32D0C92CE003AF2C7 /* Resources */,
@@ -157,8 +199,6 @@
 				C6447CC82D0C92CE003AF2C7 /* inglab assessmentUITests */,
 			);
 			name = "inglab assessmentUITests";
-			packageProductDependencies = (
-			);
 			productName = "inglab assessmentUITests";
 			productReference = C6447CC52D0C92CE003AF2C7 /* inglab assessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +270,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6A333A42A597AE2C5ED3528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inglab assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C280712DA95B306D3681282A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inglab assessment-inglab assessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF58C03248E844D43764816A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inglab assessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6447CA72D0C92CB003AF2C7 /* Sources */ = {
@@ -307,6 +416,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -321,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -371,6 +481,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -379,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -392,6 +503,7 @@
 		};
 		C6447CD02D0C92CE003AF2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200353E4265A59FEF7E84B03 /* Pods-inglab assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,6 +533,7 @@
 		};
 		C6447CD12D0C92CE003AF2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9919355401D328860B22060E /* Pods-inglab assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,13 +563,14 @@
 		};
 		C6447CD32D0C92CE003AF2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F944807B1C43AF8F6924D1 /* Pods-inglab assessmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NGPJ54G55T;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fortawk.inglab-assessmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,13 +583,14 @@
 		};
 		C6447CD42D0C92CE003AF2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540F87E4EDA8C600E100855E /* Pods-inglab assessmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NGPJ54G55T;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fortawk.inglab-assessmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +603,7 @@
 		};
 		C6447CD62D0C92CE003AF2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684BD018012A861EB1DAB828 /* Pods-inglab assessment-inglab assessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -505,6 +621,7 @@
 		};
 		C6447CD72D0C92CE003AF2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7EDC307F86D5E637CC28D1 /* Pods-inglab assessment-inglab assessmentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

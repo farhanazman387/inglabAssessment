@@ -16,7 +16,10 @@ import Foundation
 // MARK: - User
 struct User: Codable {
     let avatar: String?
-    let name, phone: String?
+    let name : String?
+    let phone: String?
+    let email: String?
+    let address: String?
     let isActive: Bool?
     let index: Int?
 }
