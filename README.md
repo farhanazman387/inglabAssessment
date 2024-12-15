@@ -1,6 +1,6 @@
 # Inglab Assessment
 
-an application that allow user to seek personal information of an organization member
+An application that allow user to seek personal information of an organization member.
 
 ## Features
 1. Login page
@@ -32,3 +32,10 @@ an application that allow user to seek personal information of an organization m
 8. Click on start button to run on simulator
 
 Now you can run your apps
+
+## More description on the project
+1. This project is using swiftUI
+2. MVVVM architecture is implemented
+3. For API Hosting, this project uses free hosting at vercel.com with Next.js
+4. Alamofire package is used for networking services
+5. If you have query, do not hesitate to ask :)
