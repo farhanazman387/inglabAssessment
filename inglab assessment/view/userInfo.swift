@@ -52,7 +52,7 @@ struct UserInfo: View {
                     Text(userInfo.phone ?? "No Phone")
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(EdgeInsets(top: 5.0, leading: 100.0, bottom: 20.0, trailing: 30.0))
+                        .padding(EdgeInsets(top: 5.0, leading: 50.0, bottom: 20.0, trailing: 30.0))
                 }
                 .border(Color.blue, width: 2.0)
                 .frame(maxWidth: .infinity)
@@ -67,7 +67,7 @@ struct UserInfo: View {
                     Text(userInfo.email ?? "No Email")
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(EdgeInsets(top: 5.0, leading: 100.0, bottom: 20.0, trailing: 30.0))
+                        .padding(EdgeInsets(top: 5.0, leading: 50.0, bottom: 20.0, trailing: 30.0))
                 }
                 .border(Color.blue, width: 2.0)
                 .frame(maxWidth: .infinity)
