@@ -37,5 +37,5 @@ Now you can run your apps
 1. This project is using swiftUI
 2. MVVVM architecture is implemented
 3. For API Hosting, this project uses free hosting at vercel.com with Next.js
-4. Alamofire package is used for networking services
+4. Alamofire package is used for networking service
 5. If you have query, do not hesitate to ask :)
